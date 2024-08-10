@@ -1,0 +1,12 @@
+create database BankManagementSystem;
+use BankManagementSystem;
+create table signup(form_no varchar(30),Name varchar(30),Father_Name varchar(30),DOB varchar(30),Gender varchar(30),Email varchar(50),Married_Status varchar(30),Address varchar(61),City varchar(30),Pin_Code varchar(30),State varchar(30));
+select *from signup;
+create table signup2(form_no varchar(30),Religion varchar(30),Category varchar(30),Income varchar(30),Education varchar(30),Occupation varchar(50),Pan_NO varchar(30),Adhaar_NO varchar(61),Senior_Citizen varchar(30),Existing_Account varchar(30));
+select *from signup2;
+create table signupthree(form_no varchar(30),Account_Type varchar(30),Card_No varchar(30),Pin varchar(30),Facility varchar(30));
+select * from signupthree;
+create table login(form_no varchar(30),Card_No varchar(30),Pin varchar(30));
+select * from login;
+create table bank(Pin varchar(10),Date varchar(50),Type varchar(20),Amount varchar(30));
+select * from bank;
